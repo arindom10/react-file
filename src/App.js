@@ -1,7 +1,11 @@
+import Forms from "./Components/Forms/Forms";
+import Header from "./Components/Header/Header";
+
 function App() {
     return (
         <div>
-            <h3>My Name IS Pollab</h3>
+            <Header />
+            <Forms />
         </div>
     );
 }
